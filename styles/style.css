@@ -41,7 +41,9 @@ nav img{
     width: 51px;
     height: 51px;
 }
-
+/* -------------------------
+main part style 
+---------------------------*/
 main{
     display: flex;
     flex-direction: column;
@@ -119,7 +121,7 @@ top blogs style
     font-size: 16px;
 }
 /*--------------------
-courses stuyle
+courses style
 --------------------- */
 .courses{
     display: grid;
@@ -165,6 +167,7 @@ courses stuyle
  @media only screen and (max-width:688px){
      .container{
          width: 100%;
+         
      }
      .players, .blogs, .courses{
          grid-template-columns: repeat(1,1fr);
@@ -188,12 +191,17 @@ courses stuyle
     .logo-text{
         margin-left: 5px;
     }
+    .top-blogs, .section-title{
+        padding-left: 10px;
+
+    }
         
  }
  /* tablet devices */
  @media only screen and (min-width: 688px) and (max-width:992px) {
      .container{
          width: 100%;
+         
      }
       .players, .courses{
         grid-template-columns: repeat(2,1fr);
